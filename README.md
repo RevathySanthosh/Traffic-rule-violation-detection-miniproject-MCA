@@ -1,7 +1,9 @@
 # miniproject
 PEDESTRIAN DETECTION
+
 Group No : 13
- Contact details of group members:
+
+Contact details of group members:
  
 1.  Arunima. C.Chandran
 
