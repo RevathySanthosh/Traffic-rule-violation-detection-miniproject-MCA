@@ -1,5 +1,5 @@
 # miniproject
-PEDESTRIAN DETECTION
+TRAFFIC RULES VIOLATION DETECTION SYSTEM
 
 Group No : 13
 
@@ -26,4 +26,4 @@ Contact details of group members:
      CET
      
      
-Project Supervisor : Miss Pooja J P
+Project Supervisor : Neevan R
