@@ -1,0 +1,80 @@
+    <html>  
+    <head>  
+        <title>upload</title>  
+
+<style>
+body {
+  background-color: black;
+}
+.center {
+padding:180px 0;
+text-align: center;
+
+}
+table {
+color :white;
+}
+</style>
+    </head>  
+
+    <body>  
+
+
+
+<div class="center">
+<table align="center">
+  <tr>
+    <td><h2>vehicle Speed Detection:</h2></td>
+    <td><br><br><form action = "/success" method = "post" enctype="multipart/form-data">  
+            <input type="file" name="file" />  
+            <input type = "submit" value="Upload">  
+        </form>  
+
+<br></td>
+    
+  </tr>
+  <tr>
+    <td><h2>Helmet Detection:</h2></td>
+    <td><br><br> <form action = "/secondfile" method = "post" enctype="multipart/form-data">  
+            <input type="file" name="file" />  
+            <input type = "submit" value="Upload">  
+        </form>  
+</td>
+  </tr>
+</table>
+</div>
+
+<div>
+<form action = "/runFunction" method = "post" enctype="multipart/form-data">  
+  <input type="hidden" value="ff" id="asd"/>  
+  <input type = "submit" value="Helmet">  
+</form>  
+
+</div>
+
+
+
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+<div>
+  <form action = "/runSpeedFunction" method = "post" enctype="multipart/form-data">  
+    <input type="hidden" value="hhh"/>  
+    <input type = "submit" value="Speed">  
+  </form>  
+  
+  </div>
+
+
+  <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+  <div>
+    <form action = "/home" method = "post">  
+      <input type="hidden" value="hhh"/>  
+      <input type = "submit" value="Home">  
+    </form>  
+    
+    </div>
+  
+  
+
+
+    </body>  
+    </html>  
